@@ -15,4 +15,6 @@ nginx-proxy:
     nginx:
       conf:
         servername: "kibana"
+	username: "admin"
+	password: "{SHA}bovSm2f6yv6Xe3Pinz0gfTy+PnA="
         upstream_port: 5601 
